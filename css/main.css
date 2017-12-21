@@ -21,6 +21,23 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  background-color: #e2e2e2;
+  padding-bottom: .5em;
+}
+
 .img-flex {
+  display: block;
   width: 100%;
+}
+
+h2 {
+  font: normal 100%/1.3 'Denk One', sans-serif;
+  font-size: 1.5rem;
+  margin-left: .75em;
+}
+
+p {
+  margin-left: 1.25em;
+  margin-right: 1.25em;
 }
