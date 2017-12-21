@@ -45,7 +45,38 @@ p {
 
 @media only screen and (min-width: 25em) {
 
-p {
-  font-size: 1.0125rem;
+  p {
+    font-size: 1.0125rem;
+  }
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+    font-family: Georgia, serif;
+  }
+
+  .fig {
+    position: relative;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+
+  div .content {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    bottom: 25em;
+    border-radius: 10px;
+    margin-right: 1.5em;
+    margin-bottom: 1.75em;
+    margin-left: 13.5em;
+  }
+
+
+  }
 }
