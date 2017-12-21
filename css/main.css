@@ -24,6 +24,7 @@ body {
 .wrapper {
   background-color: #e2e2e2;
   padding-bottom: .5em;
+  margin: 0;
 }
 
 .img-flex {
@@ -58,23 +59,31 @@ p {
     font-family: Georgia, serif;
   }
 
-  .fig {
+  .wrapper {
+    padding: 0;
     position: relative;
   }
 
-  .wrapper {
-    padding: 0;
-  }
-
-  div .content {
+  .content {
     position: absolute;
     color: #fff;
     background-color: rgba(0, 0, 0, .3);
-    bottom: 25em;
     border-radius: 10px;
-    margin-right: 1.5em;
-    margin-bottom: 1.75em;
-    margin-left: 13.5em;
+    bottom: 1.5em;
+    right: 1.25em;
+    margin-left: 13em;
   }
 
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .content {
+    margin-left: 27em;
+  }
 }
